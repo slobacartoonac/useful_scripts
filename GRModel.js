@@ -151,7 +151,7 @@ module.exports=
 	exportDB:exportDB,
 	getName:function(val)
 	{
-		return names["Vezbanje"];
+		return names[val];
 	},
 	clearDB:function(){
 		instances={};
